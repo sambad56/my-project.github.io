@@ -45,11 +45,7 @@ body {
   padding: 120px 0;
 }
 
-.gradient-text {
-  background: linear-gradient(to right, var(--secondary-color), var(--primary-color));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
+
 
 #home button {
   margin-top: 20px;
@@ -154,111 +150,6 @@ footer a:hover {
   .pricing {
     margin-bottom: 20px;
   }
-  footer {
-    text-align: center;
-  }
+  
 }
 
-background{
-  background-image: url(../../../Desktop/pbl/CCA/3995d4dcfb99a5b967830819052a4b8a.jpg);
-}
-
-/* Navbar */
-.navbar {
-  background: linear-gradient(to right, #1d3557, #457b9d);
-  border: none;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-}
-
-.navbar-nav li a {
-  color: #fff !important;
-  font-weight: bold;
-  transition: color 0.3s ease-in-out;
-}
-
-.navbar-nav li a:hover {
-  color: #f4a261 !important;
-}
-
-/* Hero Section */
-#home .overlay {
-  background: url('add.jpg') no-repeat center center;
-  background-size: cover;
-  color: #fff;
-  text-align: center;
-  padding: 120px 0;
-}
-
-.gradient-text {
-  background: linear-gradient(to right, #f4a261, #2a9d8f);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
-#home button {
-  margin-top: 20px;
-  background: #2a9d8f;
-  border: none;
-  color: #fff;
-  font-size: 1.2rem;
-  padding: 10px 20px;
-  border-radius: 25px;
-  transition: all 0.3s ease;
-}
-
-#home button:hover {
-  background: #f4a261;
-  transform: scale(1.1);
-}
-
-footer a {
-  color: #fff;
-  margin: 0 10px;
-  font-size: 1.5rem;
-  transition: color 0.3s ease-in-out;
-}
-
-footer a:hover {
-  color: #e63946;
-}
-
-/* Buttons */
-.btn-primary {
-  background: #2a9d8f;
-  border: none;
-  color: #fff;
-  font-size: 1rem;
-  padding: 10px 20px;
-  border-radius: 25px;
-  transition: all 0.3s ease;
-}
-
-.btn-primary:hover {
-  background: #f4a261;
-  transform: scale(1.05);
-}
-
-/* Animations */
-[data-wow-delay] {
-  opacity: 0;
-  transform: translateY(20px);
-  transition: all 0.3s ease-in-out;
-}
-
-[data-wow-delay].wow {
-  opacity: 1;
-  transform: translateY(0);
-}
-
-/* Responsive Design */
-@media (max-width: 768px) {
-  #home {
-    padding: 80px 0;
-  }
-  .pricing {
-    margin-bottom: 20px;
-  }
-  footer {
-    text-align: center;
-  }
-}
